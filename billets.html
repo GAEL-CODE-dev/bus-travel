@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Billets - BUS TRAVEL</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="billets.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+
+    <!-- LOGO -->
+    <div class="logo">
+      BUS <span>TRAVEL</span>
+    </div>
+
+  <!-- MENU -->
+    <nav class="menu">
+      <a href="index.html">Accueil</a>
+      <a href="Destinations.html">Destinations</a>
+      <a href="Horaires.html">Horaires</a>
+      <a href="billets.html">Mes billets</a>
+      <a href="contacts.html">Contact</a>
+    </nav>
+
+   
+    <!-- MENU MOBILE -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+      ☰
+    </div>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Réservez vos billets</h2>
+  <p>Voyagez facilement à travers le Congo-Brazzaville</p>
+
+  <input type="text" id="searchInput" placeholder="Rechercher un trajet...">
+</section>
+
+<!-- BILLETS -->
+<section class="tickets-container">
+
+  <div class="ticket-card">
+    <div class="top">
+      <h3>Brazzaville → Pointe-Noire</h3>
+      <span>VIP</span>
+    </div>
+
+    <div class="infos">
+      <p><i class="fa fa-clock"></i> 06H00 - 16H00</p>
+      <p><i class="fa fa-bus"></i> Bus climatisé</p>
+      <p><i class="fa fa-wifi"></i> Wifi gratuit</p>
+    </div>
+
+    <div class="bottom">
+      <h2>15 000 FCFA</h2>
+      <button class="btn">Réserver</button>
+    </div>
+  </div>
+
+  <div class="ticket-card">
+    <div class="top">
+      <h3>Pointe-Noire → Dolisie</h3>
+      <span>Standard</span>
+    </div>
+
+    <div class="infos">
+      <p><i class="fa fa-clock"></i> 09H00 - 11H30</p>
+      <p><i class="fa fa-bus"></i> Transport rapide</p>
+      <p><i class="fa fa-plug"></i> Prises électriques</p>
+    </div>
+
+    <div class="bottom">
+      <h2>5 000 FCFA</h2>
+      <button class="btn">Réserver</button>
+    </div>
+  </div>
+
+  <div class="ticket-card">
+    <div class="top">
+      <h3>Brazzaville → Oyo</h3>
+      <span>Express</span>
+    </div>
+
+    <div class="infos">
+      <p><i class="fa fa-clock"></i> 07H30 - 10H00</p>
+      <p><i class="fa fa-bus"></i> Voyage rapide</p>
+      <p><i class="fa fa-snowflake"></i> Climatisation</p>
+    </div>
+
+    <div class="bottom">
+      <h2>7 000 FCFA</h2>
+      <button class="btn">Réserver</button>
+    </div>
+  </div>
+
+</section>
+
+<a href="https://wa.me/242065936820" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i>
+  Réserver via WhatsApp
+</a>
+
+ <footer class="footer">
+  <section class="footer-container">
+
+    <!-- À propos -->
+    <section class="footer-section" data-aos="fade-up">
+      <h2 class="logo">BUS <span>TRAVEL</span></h2>
+      <p>
+        Voyagez facilement à travers le Congo-Brazzaville.
+        Réservez vos billets en quelques clics !
+      </p>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/242065936820"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </section>
+
+    <!-- Liens -->
+    <section class="footer-section" data-aos="fade-up" data-aos-delay="200">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="#Accueil">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#Horaires">Horaires</a></li>
+        <li><a href="#reservation">Réservation</a></li>
+      </ul>
+    </section>
+
+    <!-- Support -->
+    <section class="footer-section" data-aos="fade-up" data-aos-delay="400">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Conditions</a></li>
+        <li><a href="#">Confidentialité</a></li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="footer-section" data-aos="fade-up" data-aos-delay="600">
+      <h3>Contact</h3>
+      <p>📍 Brazzaville, Congo</p>
+      <p>📞 +242 06 593 6820</p>
+      <p>✉️ contact@bustravel.cg</p>
+    </section>
+
+  </section>
+
+  <section class="footer-bottom">
+    <p>&copy; 2025 BUS TRAVEL - Tous droits réservés</p>
+  </section>
+
+  <!-- Bouton retour en haut -->
+  <button id="topBtn">↑</button>
+</footer>
+    <script src="billets.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
